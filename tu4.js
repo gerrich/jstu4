@@ -269,7 +269,7 @@
             if (line.length == 0) {
               continue;
             }
-            console.log('['+line+']'); 
+            //console.log('['+line+']'); 
             // try to parse a command
             arr = /^([^\s]+),(.),(.),([^\s]+)/.exec(line);
             if(arr === null) {
